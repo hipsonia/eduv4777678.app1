@@ -7,7 +7,7 @@ import pickle
 st.title("Heart Disease Prediction")
 
 # Load the model
-model = pickle.load(open("heart_disease_model.pkl", "rb"))
+model = pickle.load(open("heart_disease_model.pkl"))
 
 # Sidebar with user inputs
 st.sidebar.header("User Input Features")
