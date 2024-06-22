@@ -6,7 +6,7 @@ import pickle
 # Title of the application
 st.title("Heart Disease Prediction")
 
-model = joblib.load('best_model_heart_disease_prediction.pkl')
+model = pickle.load('best_model_heart_disease_prediction.pkl')
 
 # Sidebar with user inputs
 st.sidebar.header("User Input Features")
